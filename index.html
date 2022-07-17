@@ -391,8 +391,12 @@
             </svg>
             <span>download the app</span>
           </a>
-          <img src="./assets/app.svg width=240" class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs" alt="">
+          <img src="./assets/app.svg" width="240" class="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs" alt="app">
+          <div class="absolute -bottom-18 left-1/2 translate-x-1/2 -z-10 aspect-square
+                    md:border-8 border-amber-400 rounded-full w-72 lg:w-96">
         </div>
+        </div>
+        
         <form class="
         relative
         border-8
@@ -411,11 +415,12 @@
         w-full
 
         ">
+        
       <h2 id="contact" class="text-3xl font-bold">Let's Connect</h2>
       <div class="relative">
         <input type="text" id="name" class="peer form-input w-full border-4 rounded-md border-amber-400 focus:ring-2 dark:focus:ring-offset-2 focus:ring-amber-300 focus:border-amber-400 focus:outline-none placeholder-transparent dark:bg-amber-400 dark:text-neutral-900" placeholder="enter your name">
         <label for="name" class="
-        peer-focus:text-blue-400
+       
         text-neutral-500
         text-sm
         font-bold
@@ -435,7 +440,7 @@
         ">name</label>
       </div>
       <div class="relative">
-        <input type="text" id="name" class="peer form-input w-full border-4 rounded-md border-amber-400 focus:ring-2 dark:focus:ring-offset-2 focus:ring-amber-300 focus:border-amber-400 focus:outline-none placeholder-transparent dark:bg-amber-400 dark:text-neutral-900" placeholder="enter your email">
+        <input type="email" id="email" class="peer form-input w-full border-4 rounded-md border-amber-400 focus:ring-2 dark:focus:ring-offset-2 focus:ring-amber-300 focus:border-amber-400 focus:outline-none placeholder-transparent dark:bg-amber-400 dark:text-neutral-900" placeholder="enter your email">
         <label for="email" class="
         text-neutral-500
         text-sm
@@ -455,6 +460,50 @@
         dark:peer-focus:text-neutral-200
         ">email</label>
       </div>
+      <div class="relative">
+            
+           <textarea name="content" id="content" cols="20" rows="5" class="peer form-text-area resize-none w-full border-4 rounded-md border-amber-400 focus:ring-2 dark:focus:ring-offset-2 focus:ring-amber-300 focus:border-amber-400 focus:outline-none placeholder-transparent dark:bg-amber-400 dark:text-neutral-900" placeholder="how can we help ?"></textarea>
+            <label for="email" class="
+                    text-neutral-500
+                    text-sm
+                    font-bold
+                    uppercase
+                    absolute
+                    -top-3
+                    left-2
+                    -translate-y-1/2
+                    peer-placeholder-shown:left-4
+                    peer-placeholder-shown:top-6
+                    peer-placeholder-shown:text-neutral-900
+                    peer-focus:-top-4
+                    peer-focus:left-2
+                    transition-all
+                    peer-focus:text-neutral-400
+                    dark:peer-focus:text-neutral-200
+                    ">how can we help?</label>
+
+      </div>
+     
+      <a role="menuitem" class="
+                  py-1
+                  px-6
+                  bg-neutral-900
+                  w-max
+                  text-white
+                  shadow-md
+                  hover:shadow-xl
+                  transition-shadow
+                  dark:text-neutral-900
+                  ring-neutral-900
+                  rounded-md
+                  focus:outine-none
+                  focus-visible:ring-4 
+                  ring-offset-4 ring-offset-white
+                  dark:ring-offset-amber-400
+                  " href="/">
+                  Sign Up
+      </a>
+
       </form>
       </div>
     </section>
