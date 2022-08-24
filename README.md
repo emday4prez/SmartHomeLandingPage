@@ -1,6 +1,6 @@
 # Smart Home Landing Page
 
-
+![Screenshot](/SmartHomeLandingPage/assets/smart-home2.png?raw=true "Screenshot")
 
 ## Table of contents
 
