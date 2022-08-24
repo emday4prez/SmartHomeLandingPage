@@ -1,6 +1,6 @@
 # Smart Home Landing Page
 
-![Screenshot](/SmartHomeLandingPage/assets/smart-home2.png?raw=true "Screenshot")
+<img src="/SmartHomeLandingPage/assets/smart-home2.png" alt="screenshot of website" title="Screenshot">
 
 ## Table of contents
 
