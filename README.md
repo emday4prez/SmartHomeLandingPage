@@ -1,6 +1,6 @@
 # Smart Home Landing Page
 
-<img src="/SmartHomeLandingPage/assets/smart-home2.png" alt="screenshot of website" title="Screenshot">
+<img src="/assets/smart-home2.png" alt="screenshot of website" title="Screenshot">
 
 ## Table of contents
 
